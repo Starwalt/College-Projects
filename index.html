@@ -55,25 +55,18 @@
 
 <div class="container">
     <h2>College Project</h2>
-	<form id="projectForm" action="https://formspree.io/f/mayrwbpj" method="POST" >
-        <div class="grid">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
-            
-            <label for="major">Major:</label>
-            <input type="text" id="major" name="major" required>
-            
-            <label for="projectTitle">Project Title:</label>
-            <input type="text" id="projectTitle" name="projectTitle" required>
-            
-            <label for="projectDescription">Project Description:</label>
-            <textarea id="projectDescription" name="projectDescription" required></textarea>
-        </div>
-        <button type="submit" class="submit-btn">Submit</button>
-    </form>
+<form action="https://formspree.io/f/mayrwbpj" method="POST">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 </div>
 
 </body>
